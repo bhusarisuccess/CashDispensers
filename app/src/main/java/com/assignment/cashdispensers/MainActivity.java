@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private EditText editAmount;
     private Button btnProcess, btnReset;
 
-    //Count collum
+    //Count column
     private TextView tvRs2000Count;
     private TextView tvRs1000Count;
     private TextView tvRs500Count;
@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private TextView tvPaise25Count;
     private TextView tvCountTotal;
 
-    //Total collum
+    //Total column
     private TextView tvRs2000Total;
     private TextView tvRs1000Total;
     private TextView tvRs500Total;
@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnReset = findViewById(R.id.btnReset);
         tableLayout = (TableLayout) findViewById(R.id.table);
 
-        //Count collum
+        //Count column
         tvRs2000Count = findViewById(R.id.tv2000Count);
         tvRs1000Count = findViewById(R.id.tv1000Count);
         tvRs500Count = findViewById(R.id.tv500Count);
@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         tvPaise25Count = findViewById(R.id.tvPaise25Count);
         tvCountTotal = findViewById(R.id.tvCountTotal);
 
-        //Total collum
+        //Total column
         tvRs2000Total = findViewById(R.id.tvRs2000Total);
         tvRs1000Total = findViewById(R.id.tvRs1000Total);
         tvRs500Total = findViewById(R.id.tvRs500Total);
