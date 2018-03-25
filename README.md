@@ -1,4 +1,4 @@
-<h1>Cash Dispensers Demo</h1>
+<h1>Cash Dispenser Demo</h1>
 <p>
 This is an Android demo application for which will take an input amount as integer or decimal and it should give output as number of currency note required to match the input amount. You need to print currency and its count to required to match input amount.
 </p>
