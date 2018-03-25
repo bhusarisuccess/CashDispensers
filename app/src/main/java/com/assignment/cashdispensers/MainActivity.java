@@ -106,9 +106,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 double amount = Double.valueOf(editAmount.getText().toString());
                 Dispenser dispenser = new Dispenser(MainActivity.this);
 
-                if (dispenser.getDecimalPlacess(amount) < 2) {
+              /*  if (dispenser.getDecimalConverter(amount)!=0) {
                     editAmount.setError("Please Enter the valid amount");
-                }
+                }*/
                 if (dispenser.getDecimalPlacess(amount) > 2) {
                     editAmount.setError("Please Enter the valid amount");
                 } else {
